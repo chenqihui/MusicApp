@@ -10,3 +10,5 @@ PS：这里为了与酷狗一样，所以默认生成可以横向滑动的首页
 2、实现scroll跳转view
 
 3、播放页面的旋转手势效果
+
+![image](https://github.com/chenqihui/MusicApp/blob/master/screenshots/MusicAppGif.gif)

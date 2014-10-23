@@ -33,7 +33,7 @@
 			containerPortal = 7481BEE919767FAE00D322BA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7481BEF019767FAE00D322BA;
-			remoteInfo = KGApp;
+			remoteInfo = MusicApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -196,7 +196,7 @@
 			dependencies = (
 			);
 			name = MusicApp;
-			productName = KGApp;
+			productName = MusicApp;
 			productReference = 7481BEF119767FAE00D322BA /* MusicApp.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -214,7 +214,7 @@
 				7481BF1219767FAE00D322BA /* PBXTargetDependency */,
 			);
 			name = MusicAppTests;
-			productName = KGAppTests;
+			productName = MusicAppTests;
 			productReference = 7481BF0C19767FAE00D322BA /* MusicAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -425,19 +425,19 @@
 		7481BF2119767FAE00D322BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KGApp.app/KGApp";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicApp.app/MusicApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KGApp/KGApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "MusicApp/MusicApp-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "KGAppTests/MusicAppTests-Info.plist";
+				INFOPLIST_FILE = "MusicAppTests/MusicAppTests-Info.plist";
 				PRODUCT_NAME = MusicAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -447,15 +447,15 @@
 		7481BF2219767FAE00D322BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KGApp.app/KGApp";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MusicApp.app/MusicApp";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KGApp/KGApp-Prefix.pch";
-				INFOPLIST_FILE = "KGAppTests/MusicAppTests-Info.plist";
+				GCC_PREFIX_HEADER = "MusicApp/MusicApp-Prefix.pch";
+				INFOPLIST_FILE = "MusicAppTests/MusicAppTests-Info.plist";
 				PRODUCT_NAME = MusicAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
